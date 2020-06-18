@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Elevator Access Request</title>
+		<meta name="description" content="This is the home page of our project" />
+		<meta name="robots" content="noindex nofollow" />
+		<meta http-equiv="author" content="Gunnar Barkhouse" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<link href="css/style1.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>    
+		<h1>Request access</h1>
+
+		<form action="php/Request_Access.php" method="POST">
+		<p>Please fill out the following form to gain access to the controls</p>
+		<p>First Name <input type="text" name="first_name" /> </p>
+		<p>Last Name <input type="text" name="last_name" /> </p>
+		<p>Email <input type="text" name="email" /> </p>
+
+
+		<input type="radio" name="f_or_s" value="faculty" /> Faculty
+		<input type="radio" name="f_or_s" value="student" /> Student
+
+		<p>Why do you want access?</p>
+		<textarea name="reason" class="text"></textarea> </br>
+		<input id="submit" type="submit" value="Submit Request" />
+
+		</form>
+		<br />
+		<br />
+		<br />
+	
+		<p>Copyright &copy 2020 Gunnar Barkhouse</p>
+
+    </body>
+</html>

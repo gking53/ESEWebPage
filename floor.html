@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Elevator Control</title>
+    <meta name="description" content="This is the home page of our project" />
+    <meta name="robots" content="noindex nofollow" />
+    <meta http-equiv="author" content="Gunnar Barkhouse" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <link href="../css/control_style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="page" class="container"></div>
+    <header>
+        <h1>Elevator Control</h1>
+    </header>
+    <button onclick="showCarControl()">Car Control</button>  <br/>
+    <div class="in_car" id="in_car">
+        <h2>In car controls</h2>
+
+        <div class="cntrlButton"> <input type="submit" value="Floor Three" /> </div>
+        <div class="cntrlButton"><input type="submit" value="Floor Two" /> </div>
+        <div class="cntrlButton"><input type="submit" value="Floor One" /> </div>
+        <div class="cntrlButton"><input type="submit" value="Emergency" /> </div>
+
+    </div>
+    <button onclick="showFloorControl()">Floor Control</button> <br/>
+    <div class="floor_control" id="floor_control" >
+        <button onclick="showFloorOne()">Floor One Control</button>
+        <button onclick="showFloorTwo()">Floor Two Control</button>
+        <button onclick="showFloorThree()">Floor Three Control</button>
+        <h2>Floor Control</h2>
+        <div class="floor_one" id="floor_one">
+            <p>Floor One</p>
+
+            <input id="up" type="submit" value="Up" />
+
+        </div>
+        <div class="floor_two" id="floor_two">
+            <p>Floor Two</p>
+
+            <input id="up" type="submit" value="Up" />
+            <input id="down" type="submit" value="Down" />
+
+        </div>
+        <div class="floor_three" id="floor_three">
+            <p>Floor Three</p>
+
+            <input id="down" type="submit" value="Down" />
+
+        </div>
+    </div>
+
+    </div>
+    <script src="js/control.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+/*Created by Adam Crane*/
+
+body { 
+    font-family: Georgia, sans-serif;
+    width: 950px;
+    padding: 0px 10px 0px 10px;
+    margin: 0px auto 0px auto;
+    border: 2px solid black;
+}
+
+p,ul,ol { 
+    font-size: 100%;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 160%;
+}
+
+h2 {
+    font-size: 125%
+}
+
+p {
+    text-indent: 15px;
+}
+
+img {
+    height: 300px;
+    display: block;
+    margin: 0px auto 0px auto;
+    border: 2px solid blue;
+    box-shadow: 10px 10px 5px gray;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+    font-size: 90%;
+}
+
+.mkbold {
+    font-weight: bold;
+    color: red; 
+}
+
+.mkunderlined {
+    text-decoration: underline;
+    color: red; 
+}
+
+#hcs12 { 
+    font-weight: bold;
+    color: blue;
+}
+
+#can { 
+    font-weight: bold;
+    color: blue;
+}
+
+#buttons { 
+    font-weight: bold;
+    color: blue;  
+}
+
+figure {
+    padding: 0px auto 0px auto;
+    border: 2px solid green;
+    border-radius: 25px;
+}
+
+
+

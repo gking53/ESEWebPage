@@ -1,0 +1,27 @@
+a:link.menu {
+    background-color: gray;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited.menu {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover.menu {
+    font-weight: bold;
+    background-color: lightgray;
+}
+
+h1 {color: blue; 
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+p {color: green;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+li.h_menu { display: inline;}
+
+
