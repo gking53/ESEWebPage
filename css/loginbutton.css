@@ -1,0 +1,13 @@
+
+  .button{
+    background: url('button2.png') no-repeat;
+    display: block;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.button:hover{
+    background-position: 0 2px;
+ }
